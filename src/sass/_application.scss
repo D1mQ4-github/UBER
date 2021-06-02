@@ -1,0 +1,89 @@
+.application {
+    min-height: 864px;
+    background: url('../img/bg/mobile_bg.jpg') center center/cover;
+    padding: 48px 0 60px 0;
+    .label {
+        color: #fff;
+        background-color: #000;
+        width: 112px;
+    }
+    .title {
+        margin-top: 33px;
+    }
+    .row {
+        margin-top: 30px;
+    }
+    &__item {
+        position: relative;
+        padding: 83px 0 34px 0;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        width: 320px;
+        height: 280px;
+        background: url('../img/mobile/1.jpg') center/cover no-repeat;
+        &_1 {
+            background-image: url('../img/mobile/1.jpg');
+        }
+        &_2 {
+            background-image: url('../img/mobile/2.jpg');
+        }
+        &_3 {
+            background-image: url('../img/mobile/3.jpg');
+        }
+        &_4 {
+            background-image: url('../img/mobile/4.jpg');
+        }
+        &_5 {
+            background-image: url('../img/mobile/5.jpg');
+        }
+        &_6 {
+            background-image: url('../img/mobile/6.jpg');
+        }
+        &-title {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0 20px;
+        }
+        &-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 34px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #000;
+            width: 29px;
+            height: 29px;
+            border-radius: 50%;
+            cursor: pointer;
+            &::after {
+                content: " ";
+                width: 2px;
+                height: 14px;
+                background-color: #1EACC7;
+                transition: .3s;
+            }
+            &::before {
+                content: " ";
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 14px;
+                height: 2px;
+                background-color: #1EACC7;
+                transition: .3s;
+            }
+            &:hover {
+                &::before,
+                &::after {
+                    background-color: #ff5656;
+                }
+            }
+        }
+    }
+}

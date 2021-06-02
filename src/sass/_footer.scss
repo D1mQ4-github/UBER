@@ -1,0 +1,85 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 23px 40px 23px;
+    &__social {
+        display: flex;
+        width: 33%;
+        margin-top: 48px;
+        &-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            background-color: #070716;
+            border-radius: 50%;
+            margin-right: 6px;
+            i {
+                color: #fff;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    &__links {
+        width: 33%;
+        &-divider {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            height: 4px;
+            background-color: #1FBAD6;
+        }
+        &-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 32px;
+            a {
+                text-transform: uppercase;
+                color: #070716;
+                font-weight: 300;
+                font-size: 15px;
+                margin: 0 20px;
+            }
+        }
+        &-subnav {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            a {
+                text-transform: uppercase;
+                color: #999999;
+                font-weight: 300;
+                font-size: 11px;
+                margin: 0 10px;
+            }
+        }
+        &-lang {
+            text-align: center;
+            margin-top: 15px;
+            a {
+                text-transform: uppercase;
+                color: #1FBAD6;
+                font-weight: 400;
+                font-size: 11px;
+            }
+        }
+    }
+    &__stores {
+        display: flex;
+        justify-content: flex-end;
+        width: 33%;
+        margin-top: 48px;
+        &-link {
+            display: block;
+            width: 94px;
+            height: 26px;
+            margin-left: 6px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.choice {
+    padding: 56px 0 137px 0;
+    background: url('../img/bg/car_bg.jpg') center center/cover no-repeat;
+    .label {
+        color: #070716;
+        background-color: #fff;
+        width: 112px;
+    }
+    .title {
+        color: #fff;
+        margin-top: 27px;
+    }
+    .subtitle {
+        color: #fff;
+    }
+    &__img {
+        display: block;
+        width: 759px;
+        margin: 54px auto 0 auto;
+    }
+    &__descr {
+        color: #222222;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+}

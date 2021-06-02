@@ -1,0 +1,82 @@
+.require {
+    padding: 66px 0 87px 0;
+    min-height: 917px;
+    background-color: #fff;
+    .label {
+        background-color: #000000;
+        color: #fff;
+        width: 115px;
+    }
+    .title {
+        margin-top: 27px;
+    }
+    .row {
+        margin-top: 33px;
+    }
+    &__block {
+        margin-bottom: 60px;
+        padding-right: 39px;
+        &-blue {
+            .require__title {
+                color: #1CA8C3;
+            }
+            .require__item {
+                &:before {
+                    background: url('../icons/check_blue.svg') center center/cover no-repeat;
+                }
+            }
+            .require__descr {
+                color: #1CA8C3;
+            }
+        }
+        &-red {
+            .require__title {
+                color: #FF5656;
+            }
+            .require__item {
+                &:before {
+                    background: url('../icons/check_red.svg') center center/cover no-repeat;
+                }
+            }
+            .require__descr {
+                color: #FF5656;
+            }
+        }
+        &-nmb {
+            margin-bottom: 0;
+        }
+    }
+    &__title {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0;
+    }
+    &__list {
+        list-style-type: none;
+        color: #222222;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 28px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    &__item {
+        position: relative;
+        padding-left: 50px;
+        &:before {
+            content: " ";
+            width: 21px;
+            height: 20px;
+            position: absolute;
+            left: 19px;
+            top: 4px;
+        }
+    }
+    &__descr {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 25px;
+    }
+}

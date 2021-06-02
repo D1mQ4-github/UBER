@@ -1,0 +1,29 @@
+.world {
+    position: relative;
+    height: 720px;
+    padding: 48px 0;
+    background: url('../img/bg/world_bg.jpg') center center/cover no-repeat;
+    .label {
+        width: 72px;
+        background-color: #fff;
+        color: #070716;
+    }
+    .title {
+        margin-top: 27px;
+        color: #fff;
+    }
+    .subtitle {
+        color: #fff;
+    }
+    &__link {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #1FBAD6;
+        font-weight: 400;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
